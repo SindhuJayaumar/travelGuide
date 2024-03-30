@@ -1,0 +1,42 @@
+.travel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #eef4f7;
+  box-shadow: 1px #eef4f7;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #334155;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hr-line {
+  border: 2px solid #52bbf0;
+  width: 70px;
+}
+
+.travel-card {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}

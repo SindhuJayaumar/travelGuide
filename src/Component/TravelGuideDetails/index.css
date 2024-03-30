@@ -1,0 +1,33 @@
+.travel-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.content {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #334155;
+
+  font-weight: 400;
+}
+
+.headings {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #334155;
+  font-weight: bold;
+}
+.list-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
